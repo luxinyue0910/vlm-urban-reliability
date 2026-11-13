@@ -1,0 +1,60 @@
+{
+  "image_id": "P07",
+  "image_sha256": "7dbd1596ed0a4b42bd77e6d63e41e7b1fadeb12f41a2de3b2adc9699e981b2b1",
+  "request_sha256": "479414762f6088039e6fcf50de1c0383b3d8455b2db82e55239ab7a4501f66bc",
+  "valid": true,
+  "model_requested": "qwen3.8-flash",
+  "started_at_utc": "2026-11-13T00:24:39.236673+00:00",
+  "prediction": {
+    "road_surface_marking": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "路面中央可见清晰的黄色虚线分界线。"
+    },
+    "traffic_signal": {
+      "label": "0",
+      "confidence": 90,
+      "evidence": "视野开阔，未发现任何交通信号灯装置。"
+    },
+    "streetlight": {
+      "label": "1",
+      "confidence": 85,
+      "evidence": "道路前方左侧路边竖立有路灯杆及灯具。"
+    },
+    "sidewalk": {
+      "label": "0",
+      "confidence": 90,
+      "evidence": "道路两侧均为草地和农田，未见铺设的人行道。"
+    },
+    "traffic_sign": {
+      "label": "0",
+      "confidence": 85,
+      "evidence": "完整视野内未发现明显的交通标志牌。"
+    },
+    "bus_stop": {
+      "label": "0",
+      "confidence": 90,
+      "evidence": "未见公交站牌、候车亭或相关停靠设施。"
+    },
+    "bicycle_lane": {
+      "label": "0",
+      "confidence": 85,
+      "evidence": "未见划设的自行车道标线或物理隔离设施。"
+    }
+  },
+  "elapsed_seconds": 5.632,
+  "model_returned": "qwen3.8-flash",
+  "usage": {
+    "prompt_tokens": 5266,
+    "total_tokens": 5507,
+    "completion_tokens": 241,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560,
+      "image_tokens": 2487,
+      "text_tokens": 2779
+    },
+    "completion_tokens_details": {
+      "text_tokens": 241
+    }
+  }
+}

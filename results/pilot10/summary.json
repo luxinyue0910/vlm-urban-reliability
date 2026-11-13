@@ -1,0 +1,11 @@
+{
+  "completed_images": 10,
+  "total_images": 10,
+  "valid_predictions": 70,
+  "usage": {
+    "prompt_tokens": 52660,
+    "total_tokens": 55967,
+    "completion_tokens": 3307
+  },
+  "failures": []
+}

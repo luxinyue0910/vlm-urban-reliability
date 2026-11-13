@@ -1,0 +1,60 @@
+{
+  "image_id": "P10",
+  "image_sha256": "24a12e996ae3fb4d2ad64de3da02c3478cfab4c363486680a381b4c80cea1bc9",
+  "request_sha256": "71dea62c95c6b50a8e8b4990a55a4257209f3a8faa6789d752fb9036af9b30b1",
+  "valid": true,
+  "model_requested": "qwen3.8-flash",
+  "started_at_utc": "2026-11-13T00:24:59.546943+00:00",
+  "prediction": {
+    "road_surface_marking": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "路面清晰可见白色实线车道分界线及菱形交通标线。"
+    },
+    "traffic_signal": {
+      "label": "0",
+      "confidence": 90,
+      "evidence": "视野开阔，完整水平范围内未发现任何交通信号灯装置。"
+    },
+    "streetlight": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "道路两侧（画面中部偏左及偏右）均可见明显的悬臂式路灯杆。"
+    },
+    "sidewalk": {
+      "label": "1",
+      "confidence": 85,
+      "evidence": "道路右侧边缘可见铺设地砖的人行道区域及路缘石边界。"
+    },
+    "traffic_sign": {
+      "label": "0",
+      "confidence": 85,
+      "evidence": "在可见的道路及周边范围内未发现明确的交通标志牌。"
+    },
+    "bus_stop": {
+      "label": "0",
+      "confidence": 90,
+      "evidence": "虽然路边停有客车，但未见公交站牌、候车亭或地面公交专用标识。"
+    },
+    "bicycle_lane": {
+      "label": "NA",
+      "confidence": 70,
+      "evidence": "左侧有一辆电动车行驶，该侧路面疑似非机动车道，但因拍摄车辆遮挡及标线不清无法确认。"
+    }
+  },
+  "elapsed_seconds": 7.536,
+  "model_returned": "qwen3.8-flash",
+  "usage": {
+    "prompt_tokens": 5266,
+    "total_tokens": 5633,
+    "completion_tokens": 367,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560,
+      "image_tokens": 2487,
+      "text_tokens": 2779
+    },
+    "completion_tokens_details": {
+      "text_tokens": 367
+    }
+  }
+}

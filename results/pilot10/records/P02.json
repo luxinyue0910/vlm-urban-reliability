@@ -1,0 +1,60 @@
+{
+  "image_id": "P02",
+  "image_sha256": "f72380c722582ba5f3562f6d469338e861a6510a37fc8a80b784d725ffffa91d",
+  "request_sha256": "14a9d761b0f0dae2162034ef9ea0843bfd29a14448604f16e0c3283042d7f416",
+  "valid": true,
+  "model_requested": "qwen3.8-flash",
+  "started_at_utc": "2026-11-13T00:24:01.021371+00:00",
+  "prediction": {
+    "road_surface_marking": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "左侧路面可见清晰的停车位标线及黄色禁停网格线，右侧路口可见斑马线和车道边缘实线。"
+    },
+    "traffic_signal": {
+      "label": "0",
+      "confidence": 85,
+      "evidence": "视野内道路及路口区域未见明显的机动车或行人交通信号灯装置。"
+    },
+    "streetlight": {
+      "label": "1",
+      "confidence": 90,
+      "evidence": "图像最左侧可见一根带有悬臂灯头的路灯杆。"
+    },
+    "sidewalk": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "右侧商铺门前有铺设地砖且边界清晰的人行通道区域。"
+    },
+    "traffic_sign": {
+      "label": "NA",
+      "confidence": 60,
+      "evidence": "远处路口疑似有蓝色指示牌，但因距离过远且模糊无法确认具体内容。"
+    },
+    "bus_stop": {
+      "label": "0",
+      "confidence": 90,
+      "evidence": "沿街视野范围内未发现公交站牌、候车亭或相关停靠设施。"
+    },
+    "bicycle_lane": {
+      "label": "0",
+      "confidence": 80,
+      "evidence": "虽然路边停放有非机动车，但未见明确划设的自行车专用道标线或物理隔离设施。"
+    }
+  },
+  "elapsed_seconds": 8.731,
+  "model_returned": "qwen3.8-flash",
+  "usage": {
+    "prompt_tokens": 5266,
+    "total_tokens": 5637,
+    "completion_tokens": 371,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560,
+      "image_tokens": 2487,
+      "text_tokens": 2779
+    },
+    "completion_tokens_details": {
+      "text_tokens": 371
+    }
+  }
+}

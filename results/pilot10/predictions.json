@@ -1,0 +1,507 @@
+{
+  "model": "qwen3.8-flash",
+  "parameters": {
+    "temperature": 0,
+    "enable_thinking": false,
+    "max_tokens": 1800,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "91e0c4ddfd2bdc46506b65e30aad406e9abf93abccbb562053de01ae05ccf301",
+  "completed_images": 10,
+  "total_images": 10,
+  "rows": [
+    {
+      "image_id": "P01",
+      "task_id": "road_surface_marking",
+      "label": "1",
+      "confidence": 100,
+      "evidence": "路面清晰可见白色斑马线、车道分界线及导向箭头。"
+    },
+    {
+      "image_id": "P01",
+      "task_id": "traffic_signal",
+      "label": "1",
+      "confidence": 100,
+      "evidence": "左侧近处有一组行人信号灯显示绿灯，远处路口横杆上也有机动车信号灯。"
+    },
+    {
+      "image_id": "P01",
+      "task_id": "streetlight",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "左侧人行道旁立有路灯杆，远处道路沿线也可见多盏路灯设施。"
+    },
+    {
+      "image_id": "P01",
+      "task_id": "sidewalk",
+      "label": "1",
+      "confidence": 100,
+      "evidence": "左侧可见铺设红色地砖和黄色盲道的人行道区域。"
+    },
+    {
+      "image_id": "P01",
+      "task_id": "traffic_sign",
+      "label": "NA",
+      "confidence": 60,
+      "evidence": "右侧远处路口疑似有蓝色交通指示牌，但因距离较远且受全景变形影响无法确认细节。"
+    },
+    {
+      "image_id": "P01",
+      "task_id": "bus_stop",
+      "label": "0",
+      "confidence": 85,
+      "evidence": "完整视野内未发现公交站牌或候车亭等站点设施。"
+    },
+    {
+      "image_id": "P01",
+      "task_id": "bicycle_lane",
+      "label": "0",
+      "confidence": 80,
+      "evidence": "可见宽阔的机动车道和路侧铺装，但未发现明确划设的自行车专用道标线或标识。"
+    },
+    {
+      "image_id": "P02",
+      "task_id": "road_surface_marking",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "左侧路面可见清晰的停车位标线及黄色禁停网格线，右侧路口可见斑马线和车道边缘实线。"
+    },
+    {
+      "image_id": "P02",
+      "task_id": "traffic_signal",
+      "label": "0",
+      "confidence": 85,
+      "evidence": "视野内道路及路口区域未见明显的机动车或行人交通信号灯装置。"
+    },
+    {
+      "image_id": "P02",
+      "task_id": "streetlight",
+      "label": "1",
+      "confidence": 90,
+      "evidence": "图像最左侧可见一根带有悬臂灯头的路灯杆。"
+    },
+    {
+      "image_id": "P02",
+      "task_id": "sidewalk",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "右侧商铺门前有铺设地砖且边界清晰的人行通道区域。"
+    },
+    {
+      "image_id": "P02",
+      "task_id": "traffic_sign",
+      "label": "NA",
+      "confidence": 60,
+      "evidence": "远处路口疑似有蓝色指示牌，但因距离过远且模糊无法确认具体内容。"
+    },
+    {
+      "image_id": "P02",
+      "task_id": "bus_stop",
+      "label": "0",
+      "confidence": 90,
+      "evidence": "沿街视野范围内未发现公交站牌、候车亭或相关停靠设施。"
+    },
+    {
+      "image_id": "P02",
+      "task_id": "bicycle_lane",
+      "label": "0",
+      "confidence": 80,
+      "evidence": "虽然路边停放有非机动车，但未见明确划设的自行车专用道标线或物理隔离设施。"
+    },
+    {
+      "image_id": "P03",
+      "task_id": "road_surface_marking",
+      "label": "0",
+      "confidence": 95,
+      "evidence": "路面可见但无清晰可辨的交通标线，仅有模糊痕迹。"
+    },
+    {
+      "image_id": "P03",
+      "task_id": "traffic_signal",
+      "label": "0",
+      "confidence": 90,
+      "evidence": "视野内未发现交通信号灯装置。"
+    },
+    {
+      "image_id": "P03",
+      "task_id": "streetlight",
+      "label": "1",
+      "confidence": 98,
+      "evidence": "右侧路灯杆清晰可见。"
+    },
+    {
+      "image_id": "P03",
+      "task_id": "sidewalk",
+      "label": "1",
+      "confidence": 98,
+      "evidence": "左侧及公交站旁均有铺装人行道。"
+    },
+    {
+      "image_id": "P03",
+      "task_id": "traffic_sign",
+      "label": "0",
+      "confidence": 90,
+      "evidence": "未见符合定义的交通标志牌。"
+    },
+    {
+      "image_id": "P03",
+      "task_id": "bus_stop",
+      "label": "1",
+      "confidence": 98,
+      "evidence": "右侧有清晰的公交候车亭和站牌设施。"
+    },
+    {
+      "image_id": "P03",
+      "task_id": "bicycle_lane",
+      "label": "NA",
+      "confidence": 70,
+      "evidence": "拍摄车辆位于疑似非机动车道区域，但标线磨损且被遮挡，无法确认专用属性。"
+    },
+    {
+      "image_id": "P04",
+      "task_id": "road_surface_marking",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "路面清晰可见多条白色虚线车道分界线及右侧的白色导向箭头。"
+    },
+    {
+      "image_id": "P04",
+      "task_id": "traffic_signal",
+      "label": "NA",
+      "confidence": 60,
+      "evidence": "远处路口疑似有信号灯设施，但因距离过远且受立交桥遮挡无法确认细节。"
+    },
+    {
+      "image_id": "P04",
+      "task_id": "streetlight",
+      "label": "1",
+      "confidence": 90,
+      "evidence": "画面左侧高架桥旁竖立着一根高杆路灯，灯头结构清晰可辨。"
+    },
+    {
+      "image_id": "P04",
+      "task_id": "sidewalk",
+      "label": "1",
+      "confidence": 85,
+      "evidence": "画面左侧路边可见铺设地砖的行人通道区域，且有路缘石界定边界。"
+    },
+    {
+      "image_id": "P04",
+      "task_id": "traffic_sign",
+      "label": "1",
+      "confidence": 75,
+      "evidence": "画面左侧高架桥立柱附近可见一块蓝底白字的交通指示牌。"
+    },
+    {
+      "image_id": "P04",
+      "task_id": "bus_stop",
+      "label": "0",
+      "confidence": 80,
+      "evidence": "视野范围内未发现公交站牌、候车亭或明确的公交停靠站标识。"
+    },
+    {
+      "image_id": "P04",
+      "task_id": "bicycle_lane",
+      "label": "1",
+      "confidence": 85,
+      "evidence": "画面右侧机动车道外侧可见由金属护栏物理隔离出的非机动车道区域。"
+    },
+    {
+      "image_id": "P05",
+      "task_id": "road_surface_marking",
+      "label": "1",
+      "confidence": 100,
+      "evidence": "路面可见清晰的白色车道分界线和道路边缘实线。"
+    },
+    {
+      "image_id": "P05",
+      "task_id": "traffic_signal",
+      "label": "0",
+      "confidence": 95,
+      "evidence": "完整视野内未发现交通信号灯装置。"
+    },
+    {
+      "image_id": "P05",
+      "task_id": "streetlight",
+      "label": "1",
+      "confidence": 100,
+      "evidence": "左侧绿化带旁清晰可见带有灯头的路灯杆。"
+    },
+    {
+      "image_id": "P05",
+      "task_id": "sidewalk",
+      "label": "1",
+      "confidence": 100,
+      "evidence": "左侧绿化带外侧可见铺设地砖的行人通行区域。"
+    },
+    {
+      "image_id": "P05",
+      "task_id": "traffic_sign",
+      "label": "0",
+      "confidence": 95,
+      "evidence": "视野范围内未见符合定义的交通标志牌。"
+    },
+    {
+      "image_id": "P05",
+      "task_id": "bus_stop",
+      "label": "0",
+      "confidence": 95,
+      "evidence": "未见公交站牌、候车亭或明确的公交停靠设施。"
+    },
+    {
+      "image_id": "P05",
+      "task_id": "bicycle_lane",
+      "label": "NA",
+      "confidence": 80,
+      "evidence": "左侧隔离带外有骑行者通行的铺装路面，但无明确标线或标识确认其为专用自行车道。"
+    },
+    {
+      "image_id": "P06",
+      "task_id": "road_surface_marking",
+      "label": "0",
+      "confidence": 95,
+      "evidence": "路面为水泥或沥青铺装，视野内未见任何车道分界线、边缘线或其他交通标线。"
+    },
+    {
+      "image_id": "P06",
+      "task_id": "traffic_signal",
+      "label": "0",
+      "confidence": 95,
+      "evidence": "画面展示的是背街小巷，视野开阔，未发现任何交通信号灯设施。"
+    },
+    {
+      "image_id": "P06",
+      "task_id": "streetlight",
+      "label": "0",
+      "confidence": 85,
+      "evidence": "道路两侧主要为围墙和建筑，视野范围内未观察到路灯杆或照明灯具。"
+    },
+    {
+      "image_id": "P06",
+      "task_id": "sidewalk",
+      "label": "1",
+      "confidence": 90,
+      "evidence": "左侧白色面包车停放区域及右侧车辆停放区域地面铺设了红色透水砖，与中间行车道有明显材质区分，可视为人行道或步行空间。"
+    },
+    {
+      "image_id": "P06",
+      "task_id": "traffic_sign",
+      "label": "0",
+      "confidence": 95,
+      "evidence": "完整水平视野中未发现任何立柱式或悬挂式的交通标志牌。"
+    },
+    {
+      "image_id": "P06",
+      "task_id": "bus_stop",
+      "label": "0",
+      "confidence": 95,
+      "evidence": "该路段狭窄且无公共交通设施特征，未见站牌或候车亭。"
+    },
+    {
+      "image_id": "P06",
+      "task_id": "bicycle_lane",
+      "label": "0",
+      "confidence": 95,
+      "evidence": "道路为混合通行空间，未见划设的自行车专用道或相关标识。"
+    },
+    {
+      "image_id": "P07",
+      "task_id": "road_surface_marking",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "路面中央可见清晰的黄色虚线分界线。"
+    },
+    {
+      "image_id": "P07",
+      "task_id": "traffic_signal",
+      "label": "0",
+      "confidence": 90,
+      "evidence": "视野开阔，未发现任何交通信号灯装置。"
+    },
+    {
+      "image_id": "P07",
+      "task_id": "streetlight",
+      "label": "1",
+      "confidence": 85,
+      "evidence": "道路前方左侧路边竖立有路灯杆及灯具。"
+    },
+    {
+      "image_id": "P07",
+      "task_id": "sidewalk",
+      "label": "0",
+      "confidence": 90,
+      "evidence": "道路两侧均为草地和农田，未见铺设的人行道。"
+    },
+    {
+      "image_id": "P07",
+      "task_id": "traffic_sign",
+      "label": "0",
+      "confidence": 85,
+      "evidence": "完整视野内未发现明显的交通标志牌。"
+    },
+    {
+      "image_id": "P07",
+      "task_id": "bus_stop",
+      "label": "0",
+      "confidence": 90,
+      "evidence": "未见公交站牌、候车亭或相关停靠设施。"
+    },
+    {
+      "image_id": "P07",
+      "task_id": "bicycle_lane",
+      "label": "0",
+      "confidence": 85,
+      "evidence": "未见划设的自行车道标线或物理隔离设施。"
+    },
+    {
+      "image_id": "P08",
+      "task_id": "road_surface_marking",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "路面可见清晰的白色车道分界线及道路边缘实线。"
+    },
+    {
+      "image_id": "P08",
+      "task_id": "traffic_signal",
+      "label": "0",
+      "confidence": 85,
+      "evidence": "完整视野内未发现交通信号灯装置。"
+    },
+    {
+      "image_id": "P08",
+      "task_id": "streetlight",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "左侧近处有一根明显的悬臂式路灯杆，远处路边也可见路灯设施。"
+    },
+    {
+      "image_id": "P08",
+      "task_id": "sidewalk",
+      "label": "1",
+      "confidence": 90,
+      "evidence": "左侧护栏内侧有铺设地砖的步行区域，边界清晰。"
+    },
+    {
+      "image_id": "P08",
+      "task_id": "traffic_sign",
+      "label": "1",
+      "confidence": 90,
+      "evidence": "前方龙门架上方悬挂有指路标志牌（虽为背面但可确认属性），右侧远处可见蓝色指示牌。"
+    },
+    {
+      "image_id": "P08",
+      "task_id": "bus_stop",
+      "label": "0",
+      "confidence": 85,
+      "evidence": "视野范围内未见公交站牌或候车亭等站点设施。"
+    },
+    {
+      "image_id": "P08",
+      "task_id": "bicycle_lane",
+      "label": "0",
+      "confidence": 80,
+      "evidence": "可见道路标线均为机动车道分隔线，未发现明确的自行车专用道标识或物理隔离设施。"
+    },
+    {
+      "image_id": "P09",
+      "task_id": "road_surface_marking",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "画面左侧及正前方路面可见清晰的白色车道边缘实线。"
+    },
+    {
+      "image_id": "P09",
+      "task_id": "traffic_signal",
+      "label": "0",
+      "confidence": 85,
+      "evidence": "视野范围内未发现交通信号灯装置，远处杆体上的红色物体为灯笼装饰而非信号灯。"
+    },
+    {
+      "image_id": "P09",
+      "task_id": "streetlight",
+      "label": "1",
+      "confidence": 90,
+      "evidence": "画面右侧绿化带外及远处道路旁可见竖立的路灯杆及照明灯具。"
+    },
+    {
+      "image_id": "P09",
+      "task_id": "sidewalk",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "画面左侧树木后方可见铺设地砖且边界清晰的人行道区域。"
+    },
+    {
+      "image_id": "P09",
+      "task_id": "traffic_sign",
+      "label": "NA",
+      "confidence": 60,
+      "evidence": "远处路口疑似有蓝色指示牌，但因距离过远且模糊无法确认具体内容。"
+    },
+    {
+      "image_id": "P09",
+      "task_id": "bus_stop",
+      "label": "0",
+      "confidence": 90,
+      "evidence": "完整视野内未见公交站牌、候车亭或明确的公交停靠设施。"
+    },
+    {
+      "image_id": "P09",
+      "task_id": "bicycle_lane",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "拍摄车辆所在的车道通过右侧连续的绿色灌木丛与主路物理隔离，符合非机动车道特征。"
+    },
+    {
+      "image_id": "P10",
+      "task_id": "road_surface_marking",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "路面清晰可见白色实线车道分界线及菱形交通标线。"
+    },
+    {
+      "image_id": "P10",
+      "task_id": "traffic_signal",
+      "label": "0",
+      "confidence": 90,
+      "evidence": "视野开阔，完整水平范围内未发现任何交通信号灯装置。"
+    },
+    {
+      "image_id": "P10",
+      "task_id": "streetlight",
+      "label": "1",
+      "confidence": 95,
+      "evidence": "道路两侧（画面中部偏左及偏右）均可见明显的悬臂式路灯杆。"
+    },
+    {
+      "image_id": "P10",
+      "task_id": "sidewalk",
+      "label": "1",
+      "confidence": 85,
+      "evidence": "道路右侧边缘可见铺设地砖的人行道区域及路缘石边界。"
+    },
+    {
+      "image_id": "P10",
+      "task_id": "traffic_sign",
+      "label": "0",
+      "confidence": 85,
+      "evidence": "在可见的道路及周边范围内未发现明确的交通标志牌。"
+    },
+    {
+      "image_id": "P10",
+      "task_id": "bus_stop",
+      "label": "0",
+      "confidence": 90,
+      "evidence": "虽然路边停有客车，但未见公交站牌、候车亭或地面公交专用标识。"
+    },
+    {
+      "image_id": "P10",
+      "task_id": "bicycle_lane",
+      "label": "NA",
+      "confidence": 70,
+      "evidence": "左侧有一辆电动车行驶，该侧路面疑似非机动车道，但因拍摄车辆遮挡及标线不清无法确认。"
+    }
+  ],
+  "failures": []
+}

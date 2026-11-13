@@ -1,0 +1,60 @@
+{
+  "image_id": "P08",
+  "image_sha256": "0d7bda52da1c9f570b4f894a1918a5cccc1a5c1b3e195e70cb4d2d4728001639",
+  "request_sha256": "72a87e61ced4c40e6bfffa3ed844af91847c2f2e0f550c16248fac32529b393a",
+  "valid": true,
+  "model_requested": "qwen3.8-flash",
+  "started_at_utc": "2026-11-13T00:24:44.877031+00:00",
+  "prediction": {
+    "road_surface_marking": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "路面可见清晰的白色车道分界线及道路边缘实线。"
+    },
+    "traffic_signal": {
+      "label": "0",
+      "confidence": 85,
+      "evidence": "完整视野内未发现交通信号灯装置。"
+    },
+    "streetlight": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "左侧近处有一根明显的悬臂式路灯杆，远处路边也可见路灯设施。"
+    },
+    "sidewalk": {
+      "label": "1",
+      "confidence": 90,
+      "evidence": "左侧护栏内侧有铺设地砖的步行区域，边界清晰。"
+    },
+    "traffic_sign": {
+      "label": "1",
+      "confidence": 90,
+      "evidence": "前方龙门架上方悬挂有指路标志牌（虽为背面但可确认属性），右侧远处可见蓝色指示牌。"
+    },
+    "bus_stop": {
+      "label": "0",
+      "confidence": 85,
+      "evidence": "视野范围内未见公交站牌或候车亭等站点设施。"
+    },
+    "bicycle_lane": {
+      "label": "0",
+      "confidence": 80,
+      "evidence": "可见道路标线均为机动车道分隔线，未发现明确的自行车专用道标识或物理隔离设施。"
+    }
+  },
+  "elapsed_seconds": 6.536,
+  "model_returned": "qwen3.8-flash",
+  "usage": {
+    "prompt_tokens": 5266,
+    "total_tokens": 5543,
+    "completion_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560,
+      "image_tokens": 2487,
+      "text_tokens": 2779
+    },
+    "completion_tokens_details": {
+      "text_tokens": 277
+    }
+  }
+}

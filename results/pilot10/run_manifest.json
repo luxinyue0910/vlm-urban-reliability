@@ -1,0 +1,18 @@
+{
+  "model_requested": "qwen3.8-flash",
+  "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "parameters": {
+    "temperature": 0,
+    "enable_thinking": false,
+    "max_tokens": 1800,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "prompt_sha256": "91e0c4ddfd2bdc46506b65e30aad406e9abf93abccbb562053de01ae05ccf301",
+  "codebook_sha256": "e16b21147d459f5c81d600ac9f402bc948fddbf836895ec44cae205c58762c66",
+  "image_preprocessing": "none; original JPEG bytes",
+  "calls_per_image": 1,
+  "confidence_definition": "self-reported confidence in correctness of selected label, not calibrated probability",
+  "started_at_utc": "2026-11-13T00:23:53.671808+00:00"
+}

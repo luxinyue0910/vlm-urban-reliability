@@ -1,0 +1,12 @@
+{
+  "model": "qwen3.8-flash",
+  "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "parameters": {
+    "temperature": 0,
+    "enable_thinking": false,
+    "max_tokens": 1800,
+    "response_format": {
+      "type": "json_object"
+    }
+  }
+}

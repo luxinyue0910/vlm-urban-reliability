@@ -1,0 +1,60 @@
+{
+  "image_id": "P03",
+  "image_sha256": "b5f50890ce0ec7ce4dc4e1bff3fe19d567127871551b46dcb25e9651a9febde6",
+  "request_sha256": "822034e0a7b996fab87cd1eb0e9a3b9a87358567b901484f28c0eaaf5d40ec74",
+  "valid": true,
+  "model_requested": "qwen3.8-flash",
+  "started_at_utc": "2026-11-13T00:24:09.769038+00:00",
+  "prediction": {
+    "road_surface_marking": {
+      "label": "0",
+      "confidence": 95,
+      "evidence": "路面可见但无清晰可辨的交通标线，仅有模糊痕迹。"
+    },
+    "traffic_signal": {
+      "label": "0",
+      "confidence": 90,
+      "evidence": "视野内未发现交通信号灯装置。"
+    },
+    "streetlight": {
+      "label": "1",
+      "confidence": 98,
+      "evidence": "右侧路灯杆清晰可见。"
+    },
+    "sidewalk": {
+      "label": "1",
+      "confidence": 98,
+      "evidence": "左侧及公交站旁均有铺装人行道。"
+    },
+    "traffic_sign": {
+      "label": "0",
+      "confidence": 90,
+      "evidence": "未见符合定义的交通标志牌。"
+    },
+    "bus_stop": {
+      "label": "1",
+      "confidence": 98,
+      "evidence": "右侧有清晰的公交候车亭和站牌设施。"
+    },
+    "bicycle_lane": {
+      "label": "NA",
+      "confidence": 70,
+      "evidence": "拍摄车辆位于疑似非机动车道区域，但标线磨损且被遮挡，无法确认专用属性。"
+    }
+  },
+  "elapsed_seconds": 6.714,
+  "model_returned": "qwen3.8-flash",
+  "usage": {
+    "prompt_tokens": 5266,
+    "total_tokens": 5550,
+    "completion_tokens": 284,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560,
+      "image_tokens": 2487,
+      "text_tokens": 2779
+    },
+    "completion_tokens_details": {
+      "text_tokens": 284
+    }
+  }
+}

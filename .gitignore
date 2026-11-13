@@ -1,0 +1,18 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.openai/
+# Teammate-provided images, rubric, generated private prompt and annotations
+data/private/**
+!data/private/.gitkeep
+web/images/
+web/codebook.pdf
+web/model-results.json
+runs/
+*.log

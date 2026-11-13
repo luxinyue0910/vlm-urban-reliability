@@ -1,0 +1,60 @@
+{
+  "image_id": "P01",
+  "image_sha256": "1589487c1545856dc570be1675601e57fdecf58168f34d6ac98f0179dfc0f13e",
+  "request_sha256": "31bc52a9cb965983da832ed501f2d66f82b4e42c0cae4a73bb691400616e1d0b",
+  "valid": true,
+  "model_requested": "qwen3.8-flash",
+  "started_at_utc": "2026-11-13T00:23:53.677498+00:00",
+  "prediction": {
+    "road_surface_marking": {
+      "label": "1",
+      "confidence": 100,
+      "evidence": "路面清晰可见白色斑马线、车道分界线及导向箭头。"
+    },
+    "traffic_signal": {
+      "label": "1",
+      "confidence": 100,
+      "evidence": "左侧近处有一组行人信号灯显示绿灯，远处路口横杆上也有机动车信号灯。"
+    },
+    "streetlight": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "左侧人行道旁立有路灯杆，远处道路沿线也可见多盏路灯设施。"
+    },
+    "sidewalk": {
+      "label": "1",
+      "confidence": 100,
+      "evidence": "左侧可见铺设红色地砖和黄色盲道的人行道区域。"
+    },
+    "traffic_sign": {
+      "label": "NA",
+      "confidence": 60,
+      "evidence": "右侧远处路口疑似有蓝色交通指示牌，但因距离较远且受全景变形影响无法确认细节。"
+    },
+    "bus_stop": {
+      "label": "0",
+      "confidence": 85,
+      "evidence": "完整视野内未发现公交站牌或候车亭等站点设施。"
+    },
+    "bicycle_lane": {
+      "label": "0",
+      "confidence": 80,
+      "evidence": "可见宽阔的机动车道和路侧铺装，但未发现明确划设的自行车专用道标线或标识。"
+    }
+  },
+  "elapsed_seconds": 7.33,
+  "model_returned": "qwen3.8-flash",
+  "usage": {
+    "prompt_tokens": 5266,
+    "total_tokens": 5645,
+    "completion_tokens": 379,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 2487,
+      "text_tokens": 2779
+    },
+    "completion_tokens_details": {
+      "text_tokens": 379
+    }
+  }
+}

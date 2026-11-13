@@ -1,0 +1,60 @@
+{
+  "image_id": "P09",
+  "image_sha256": "b64855d7e218070d91c4f0c4be70203fbf14a0aa9cd442714827d97a8a77df76",
+  "request_sha256": "d6a853c9a7e46a0c06cbad1129823c5adedb4ada17df10bc786c42b874e66f01",
+  "valid": true,
+  "model_requested": "qwen3.8-flash",
+  "started_at_utc": "2026-11-13T00:24:51.433583+00:00",
+  "prediction": {
+    "road_surface_marking": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "画面左侧及正前方路面可见清晰的白色车道边缘实线。"
+    },
+    "traffic_signal": {
+      "label": "0",
+      "confidence": 85,
+      "evidence": "视野范围内未发现交通信号灯装置，远处杆体上的红色物体为灯笼装饰而非信号灯。"
+    },
+    "streetlight": {
+      "label": "1",
+      "confidence": 90,
+      "evidence": "画面右侧绿化带外及远处道路旁可见竖立的路灯杆及照明灯具。"
+    },
+    "sidewalk": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "画面左侧树木后方可见铺设地砖且边界清晰的人行道区域。"
+    },
+    "traffic_sign": {
+      "label": "NA",
+      "confidence": 60,
+      "evidence": "远处路口疑似有蓝色指示牌，但因距离过远且模糊无法确认具体内容。"
+    },
+    "bus_stop": {
+      "label": "0",
+      "confidence": 90,
+      "evidence": "完整视野内未见公交站牌、候车亭或明确的公交停靠设施。"
+    },
+    "bicycle_lane": {
+      "label": "1",
+      "confidence": 95,
+      "evidence": "拍摄车辆所在的车道通过右侧连续的绿色灌木丛与主路物理隔离，符合非机动车道特征。"
+    }
+  },
+  "elapsed_seconds": 8.106,
+  "model_returned": "qwen3.8-flash",
+  "usage": {
+    "prompt_tokens": 5266,
+    "total_tokens": 5639,
+    "completion_tokens": 373,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560,
+      "image_tokens": 2487,
+      "text_tokens": 2779
+    },
+    "completion_tokens_details": {
+      "text_tokens": 373
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "image_id": "P01",
+    "path": "private/images/P01.jpg",
+    "selection_note": "清晰的宽阔路口；近远景差异",
+    "image_sha256": "1589487c1545856dc570be1675601e57fdecf58168f34d6ac98f0179dfc0f13e"
+  },
+  {
+    "image_id": "P02",
+    "path": "private/images/P02.jpg",
+    "selection_note": "街道内容密集；画面模糊、车辆遮挡",
+    "image_sha256": "f72380c722582ba5f3562f6d469338e861a6510a37fc8a80b784d725ffffa91d"
+  },
+  {
+    "image_id": "P03",
+    "path": "private/images/P03.jpg",
+    "selection_note": "路侧近远景交叠；局部遮挡",
+    "image_sha256": "b5f50890ce0ec7ce4dc4e1bff3fe19d567127871551b46dcb25e9651a9febde6"
+  },
+  {
+    "image_id": "P04",
+    "path": "private/images/P04.jpg",
+    "selection_note": "桥下阴影；明暗反差",
+    "image_sha256": "ffb7fa1e534e9a35904d92d03e9122cc255485518c1923856eca30f6a2fbcc3e"
+  },
+  {
+    "image_id": "P05",
+    "path": "private/images/P05.jpg",
+    "selection_note": "低角度阳光；逆光",
+    "image_sha256": "663308414587a574b28a49632e52a4b2e2a6153a952dc0b1f5a9e336883bd44f"
+  },
+  {
+    "image_id": "P06",
+    "path": "private/images/P06.jpg",
+    "selection_note": "狭窄道路；停车遮挡、局部模糊",
+    "image_sha256": "353417a7dfc8736e51f1d9447e3982704bdccc1e2ee73ccdb96d233bd919701d"
+  },
+  {
+    "image_id": "P07",
+    "path": "private/images/P07.jpg",
+    "selection_note": "开阔郊外道路；远处细节很小",
+    "image_sha256": "7dbd1596ed0a4b42bd77e6d63e41e7b1fadeb12f41a2de3b2adc9699e981b2b1"
+  },
+  {
+    "image_id": "P08",
+    "path": "private/images/P08.jpg",
+    "selection_note": "阴天光照；远景对比度较低",
+    "image_sha256": "0d7bda52da1c9f570b4f894a1918a5cccc1a5c1b3e195e70cb4d2d4728001639"
+  },
+  {
+    "image_id": "P09",
+    "path": "private/images/P09.jpg",
+    "selection_note": "树冠覆盖；明暗斑驳",
+    "image_sha256": "b64855d7e218070d91c4f0c4be70203fbf14a0aa9cd442714827d97a8a77df76"
+  },
+  {
+    "image_id": "P10",
+    "path": "private/images/P10.jpg",
+    "selection_note": "近处大型车辆遮挡；逆光",
+    "image_sha256": "24a12e996ae3fb4d2ad64de3da02c3478cfab4c363486680a381b4c80cea1bc9"
+  }
+]
