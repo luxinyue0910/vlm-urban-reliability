@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Base V2: six-facility model output",
+  "description": "本地结果校验规范；API仍使用json_object，不改为json_schema模式。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "road_surface_marking",
+    "traffic_signal",
+    "streetlight",
+    "sidewalk",
+    "traffic_sign",
+    "non_motorised_vehicle_lane"
+  ],
+  "properties": {
+    "road_surface_marking": {
+      "$ref": "#/$defs/prediction"
+    },
+    "traffic_signal": {
+      "$ref": "#/$defs/prediction"
+    },
+    "streetlight": {
+      "$ref": "#/$defs/prediction"
+    },
+    "sidewalk": {
+      "$ref": "#/$defs/prediction"
+    },
+    "traffic_sign": {
+      "$ref": "#/$defs/prediction"
+    },
+    "non_motorised_vehicle_lane": {
+      "$ref": "#/$defs/prediction"
+    }
+  },
+  "$defs": {
+    "prediction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "confidence",
+        "evidence"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "1",
+            "0",
+            "NA"
+          ]
+        },
+        "confidence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "对所选标签正确性的自报把握，不是目标存在概率或校准概率。"
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S",
+          "description": "一句可见依据或无法判断的原因。"
+        }
+      }
+    }
+  }
+}
