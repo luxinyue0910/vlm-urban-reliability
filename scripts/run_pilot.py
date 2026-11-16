@@ -19,8 +19,9 @@ def digest(raw):
 def save(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
 
-def validate(pred):
-    if not isinstance(pred, dict) or set(pred) != TASKS:
+def validate(pred, tasks=None):
+    tasks = TASKS if tasks is None else set(tasks)
+    if not isinstance(pred, dict) or set(pred) != tasks:
         raise ValueError('Task keys differ')
     for value in pred.values():
         if not isinstance(value, dict) or set(value) != {'label','confidence','evidence'}:

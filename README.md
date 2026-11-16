@@ -13,7 +13,7 @@
 - [API 配置](configs/base_v2_six_tasks.json)
 - [版本说明及完整 Prompt 的本地生成方式](docs/base_v2_six_tasks.md)
 
-完整 Prompt 包含非公开 PDF 正文，只在本地生成。下方试跑结果、运行示例和标注网页仍对应七类 V1；六类版本尚未接入批量运行入口。旧版结果与文件保留。
+完整 Prompt 包含非公开 PDF 正文，只在本地生成。六类版本已接入 `scripts/run_batch.py`，默认只做本地检查，详见[批量检查与运行](docs/batch_workflow.md)。下方试跑结果、历史运行示例和标注网页仍对应七类 V1。旧版结果与文件保留。
 
 ## 四个研究问题
 

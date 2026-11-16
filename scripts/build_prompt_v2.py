@@ -42,7 +42,7 @@ def main():
         'planned_calls_per_image':1, 'calls_executed':0,
         'pdf_extraction':'pypdf default extract_text per page, joined with newline; same method as V1',
         'legacy_three_tasks_wording':'Preserved inside original codebook; six-task instruction in prefix overrides it.',
-        'compatibility':'V1 seven-task runners and their reuse caches are not configured for this version.'
+        'compatibility':'Use run_batch.py --version base_v2_six_tasks; default is local preflight. V1 reuse is rejected.'
     }
     (PRIVATE/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'version':manifest['version'],'task_count':len(tasks),
